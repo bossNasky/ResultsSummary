@@ -207,3 +207,12 @@ body {
   background-color: var(--clr-neutral-100);
   color: var(--clr-neutral-400);
 }
+
+@media (max-width: 38rem) {
+  .summary {
+    grid-template-columns: 1fr;
+  }
+  .wrapper {
+    padding: 1rem;
+  }
+}
