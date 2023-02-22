@@ -29,3 +29,11 @@ body {
   font-family: "Hanken Grotesk", sans-serif;
   font-weight: 400;
 }
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--clr-neutral-400);
+}
